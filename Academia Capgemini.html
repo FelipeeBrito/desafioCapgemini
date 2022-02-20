@@ -6,33 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="CSS/exercicio1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="exercicio1.css">
 </head>
 
 <body>
     <h1 class="titulo1">Desafio de programação</h1>
     <div class="container">
-        <div class="atividade-um">
-            
-            <h2 class="titulo">Primeira questão</h2>
-            <h3 class="titulo">para ver o resultado</h3>
-            <input type="number" name="qtdSteps" id="qtdSteps">
-            <button id="escada" onclick="escadas()">Clique aqui</button>
-            <div id="stps"></div>
-        </div> <!-- exercicio 1 -->
-        <div class="atividade-dois">
-            <label for=""> Email
-            </label>
-            <input class="btn email" id="email" value="academia@capgemini.com" disabled type="email">
-            <label for=""> Password
-            </label>
-            <input class="btn pass" id="password" type="password">
-            <span class="Msg-error" id="span-password"></span>
-        </div> <!-- atividade 2 -->
+        <div class="card ">
+            <div class="card-content">
+                <h2 class="titulo">Primeira questão</h2>
+                <h3>Quantos degraus a escada tem?</h3>
+                <input type="number" name="qtdSteps" id="qtdSteps">
+                <button class="click" id="escada" onclick="escadas()">Clique aqui</button>
+                <div id="stps"></div>
+            </div>
+        </div>
+        <div class="card">
+
+            <div class="card-content">
+                <label for=""> Email
+                </label>
+                <input class="btn email" id="email" value="academia@capgemini.com" disabled type="email">
+                <label for=""> Password
+                </label>
+                <input class="btn pass" id="password" type="password">
+                <span class="Msg-error" id="span-password"></span>
+            </div>
+        </div>
     </div>
 
 
-    <script src="js/Exercicio1.js"></script>
+
+    <script src="Exercicio1.js"></script>
 </body>
 
 </html>

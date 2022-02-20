@@ -5,7 +5,7 @@ let steps = document.getElementById("stps")
 function escadas() {
     steps.innerHTML = ""
     let n = document.getElementById("qtdSteps").value
-    for (let row = 0; row< n; row++) {
+        for (let row = 0; row< n; row++) {
         let degrau = ''
         for ( let col = 0; col < n - row - 1; col++){
             degrau += '&nbsp&nbsp'
@@ -17,7 +17,7 @@ function escadas() {
     div.innerHTML = degrau
     steps.appendChild(div)    
     console.log(degrau)
-    }
+    } 
 }
 
 

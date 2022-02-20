@@ -1,0 +1,66 @@
+body {
+    background: #43cea2;
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+    background: linear-gradient(to right, #185a9d, #43cea2);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+.titulo1 {
+    text-align: center;
+    color: rgb(252, 252, 252);
+}
+
+.card {
+    padding: 2rem;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 5px #00000050;
+    border-radius: 16px;
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+
+}
+
+.titulo {
+    margin: 1rem;
+}
+
+
+.Msg-error {
+    display: none;
+    font-size: 11px;
+}
+
+.btn {
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 8px;
+    margin: 1rem;
+
+}
+
+.click {
+    margin: 1rem;
+}
