@@ -3,6 +3,7 @@
 ## Sobre o projeto:
 
 Apenas para fins didáticos, essa aplicação foi criada para resolver teste de logica de programação proposto pela Academia Capgemini,  para visualizar a aplicação acesse o link abaixo.
+
 https://desafioacademiacapgemini.netlify.app/
 
 ## Tecnologias e linguagens usadas:
