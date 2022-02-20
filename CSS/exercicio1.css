@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+
+}
+.titulo1{
+    text-align: center;
+}
+.atividade-um{
+    display: flex;
+    border: solid 1px black;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgb(247, 243, 243);
+    align-items: center;
+    width: 50%;
+    padding: 106px;
+    font-size: 10px;
+    
+}
+.titulo{
+    margin: 1rem;
+}
+    
+.atividade-dois{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 1rem;
+    border: solid 1px black;
+    padding: 95px; 
+    border-radius: 16px;   
+}
+.Msg-error{
+    display: none;
+    font-size: 11px;
+}
+.btn{
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 8px;
+    margin: 1rem;
+  
+}
